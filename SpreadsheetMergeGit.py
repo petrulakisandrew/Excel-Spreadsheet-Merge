@@ -18,10 +18,8 @@ def createsheet(data, name):
  
     
 #####  Example  #####
-data_file_folder1 = 'C:/Users/Andrew Petrulakis/Desktop/Reports'
-
 df1 = []
-dataset(df1, directory = 'C:/Users/Andrew Petrulakis/Desktop/Reports/SEMAP/SEMAP 2/KHA', sheetname = 'Merge')
+dataset(df1, directory = 'C:/Users/Andrew Petrulakis/Desktop/Reports', sheetname = 'Merge')
         
 # print(df1)
 #print(len(df1))
